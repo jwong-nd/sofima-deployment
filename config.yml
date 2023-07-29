@@ -1,0 +1,6 @@
+input_bucket: 'aind-open-data'
+input_dataset_path: 'diSPIM_647403_2022-11-21_23-12-18/diSPIM.zarr'
+registration_channel: 405
+downsample_exp: 2
+
+home_bucket: 'sofima-test-bucket'
