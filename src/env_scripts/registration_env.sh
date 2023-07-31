@@ -2,7 +2,7 @@
 # General, Common Requirements
 conda create --name py310 -c conda-forge python=3.10 -y
 conda run -n py310 pip install git+https://github.com/google-research/sofima
-conda run -n py310 pip install numpy pandas tensorstore boto3 yaml
+conda run -n py310 pip install numpy pandas tensorstore boto3 PyYAML
 conda run -n py310 pip install google-cloud-storage  # Needed until Tensorstore has S3 support
 
 # CPU versions of SOFIMA dependencies

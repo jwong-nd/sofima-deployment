@@ -1,7 +1,7 @@
 import numpy as np
 from ng_link import NgState, link_utils
 
-from sofima.zarr import zarr_io
+from pipeline import zarr_io
 
 
 def _zyx_vector_to_3x4(zyx_vector: np.ndarray):
